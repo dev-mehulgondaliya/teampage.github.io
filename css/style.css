@@ -141,14 +141,6 @@ body {
   color: royalblue;
 }
 
-@media (max-width: 547px) {
-  .swiper-button-next {
-    display: none;
-  }
-  .swiper-button-prev {
-    display: none;
-  }
-}
 @media (max-width: 991px) {
   .swiper-button-next {
     position: absolute;
@@ -157,5 +149,19 @@ body {
   .swiper-button-prev {
     position: absolute;
     left: -50px;
+  }
+  .mentor-details h6 {
+    font-size: 1rem;
+  }
+  .mentor-details p {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 547px) {
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-button-prev {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

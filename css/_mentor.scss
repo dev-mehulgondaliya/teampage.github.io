@@ -59,15 +59,7 @@
   color: $primary-color;
 }
 
-@media (max-width: 547px) {
-  .swiper-button-next  {
-    display: none;
-  }
-
-  .swiper-button-prev {
-    display: none;
-  }
-}
+// for resposive design
 @media (max-width: 991px) {
   .swiper-button-next  {
     position: absolute;
@@ -78,4 +70,25 @@
     position: absolute;
     left: -50px;
   }
+
+  .mentor-details {
+    h6{
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.5rem;
+    }
+  }
+
+}
+
+@media (max-width: 547px) {
+  .swiper-button-next  {
+    display: none;
+  }
+
+  .swiper-button-prev {
+    display: none;
+  }
+
 }
