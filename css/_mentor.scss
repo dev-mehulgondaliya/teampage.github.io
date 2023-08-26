@@ -1,0 +1,81 @@
+#mentor-section {
+  position: relative;
+}
+
+.swiper {
+  max-width: 800px;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 200px;
+  margin: 0 10px;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  position: relative;
+  transition: 0.5s;
+
+  &:hover{
+    background-color: $primary-color;
+    color: $text-color;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+    position: absolute;
+    top: 10px;
+  }
+
+  .mentor-details {
+    position: absolute;
+    top: 100px;
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+.swiper-button-next {
+  position: absolute;
+  right: 0;
+  font-size: 5rem;
+  color: $primary-color;
+}
+
+.swiper-button-prev{
+  position: absolute;
+  left: 0;
+  font-size: 5rem;
+  color: $primary-color;
+}
+
+@media (max-width: 547px) {
+  .swiper-button-next  {
+    display: none;
+  }
+
+  .swiper-button-prev {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .swiper-button-next  {
+    position: absolute;
+    right: -50px;
+  }
+
+  .swiper-button-prev{
+    position: absolute;
+    left: -50px;
+  }
+}

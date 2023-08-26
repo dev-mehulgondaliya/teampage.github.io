@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  user-select: none;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+// some variable
+
+$primary-color : royalblue;
+$text-color : white;
+
+#page-heading{
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+}
+
+@import 'university.scss';
+@import 'mentor.scss';
